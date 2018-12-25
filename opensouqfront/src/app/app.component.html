@@ -1,0 +1,12 @@
+<div class="container">
+  <form>
+    <div class="form-inline">
+        <input type="text" name="firstString"  placeholder="fisrt string" [(ngModel)]="firstString" class="form-control input">
+        <input type="text" name="secondString" placeholder="second string" [(ngModel)]="secondString" class="form-control input">
+    </div>
+    <button type="button" class="btn btn-primary button" [disabled]=" firstString.length === 0 || secondString.length === 0 " (click)="onClick()">calculate Levenshtein distance</button>    
+    <div *ngIf="distance !== -1">
+      <h3 class="text-primary">Levenshtein distance: {{distance}}</h3>
+    </div>
+  </form>
+</div>
