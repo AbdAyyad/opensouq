@@ -5,7 +5,9 @@ https://www.python.org/downloads/
 after that from terminal run these commands
 
 pip install django
+
 pip install djangorestframework
+
 pip install django-cors-headers
 
 and for front end you need to install node.js from the link
