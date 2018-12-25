@@ -1,4 +1,5 @@
 first for backend you need to install python from the link
+
 https://www.python.org/downloads/
 
 after that from terminal run these commands
@@ -8,9 +9,11 @@ pip install djangorestframework
 pip install django-cors-headers
 
 and for front end you need to install node.js from the link
+
 https://nodejs.org/en/
 
 and run this command in the terminal to install angular 7
+
 npm install -g @angular/cli
 
 to run the code
